@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
-//Name: Poe's xwing.ma
-//Last modified: Fri, Nov 11, 2016 12:14:43 AM
+//Name: Poe's xwing1.ma
+//Last modified: Fri, Nov 11, 2016 12:14:36 AM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -3593,4 +3593,4 @@ connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "engine_Shape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape1.iog" ":initialShadingGroup.dsm" -na;
 connectAttr "pCubeShape4.iog" ":initialShadingGroup.dsm" -na;
-// End of Poe's xwing.ma
+// End of Poe's xwing1.ma
